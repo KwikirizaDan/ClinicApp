@@ -1,0 +1,43 @@
+# ==================== ENV & SECRETS ====================
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# ==================== JAVA / MAVEN ====================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+dependency-reduced-pom.xml
+.mvn/wrapper/maven-wrapper.jar
+
+# ==================== IDE ====================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== DATABASE ====================
+*.db
+*.sqlite
+*.h2.db
+
+# ==================== NODE ====================
+node_modules/
+npm-debug.log
+
+# ==================== SPRING ====================
+spring-shell.log
